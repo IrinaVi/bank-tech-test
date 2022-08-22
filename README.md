@@ -27,30 +27,30 @@ Respective output:
 ![My Image](output.png)
 
 ## Project dependencies
-1. Install the latest Ruby version
-`rvm get stable`
-`rvm use ruby --latest --install --default`
+1. Install the latest Ruby version  
+`rvm get stable`  
+`rvm use ruby --latest --install --default`  
 
-2. Install bundler & create bundle project
-`gem install bundler`
+2. Install bundler & create bundle project  
+`gem install bundler`  
 `bundle init`
 
-3. Install RSpec so you could run tests & generate RSpec template
-`bundle add rspec`
+3. Install RSpec so you could run tests & generate RSpec template  
+`bundle add rspec`  
 `rspec --init`
 
-4. To run the tests use the following command
+4. To run the tests use the following command  
 `rspec`
 
 ## How to use the project
-First, create an object from a class, for example:
+First, create an object from a class, for example:  
 
-`bank = Bank.new`
+`bank = Bank.new`  
 
 Then, call the methods according to your needs (deposit, withdraw or get statement):
 
-`bank.deposit(1000, "14/06/2023")`
-`bank.deposit(2000, "13-01-2023")`
-`bank.deposit(5000, "22-01-2023")`
-`bank.withdraw(500, "14-01-2023")`
-`puts bank.get_statement` 
+`bank.deposit(1000, "14/06/2023")`  
+`bank.deposit(2000, "13-01-2023")`  
+`bank.deposit(5000, "22-01-2023")`  
+`bank.withdraw(500, "14-01-2023")`  
+`puts bank.get_statement`   
