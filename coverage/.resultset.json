@@ -1,0 +1,72 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/timothyfisher/makers/tech-tests/spec/bank_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/timothyfisher/makers/tech-tests/lib/bank.rb": {
+        "lines": [
+          1,
+          1,
+          3,
+          3,
+          null,
+          null,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          3,
+          9,
+          3,
+          null,
+          null
+        ]
+      }
+    },
+    "timestamp": 1661172354
+  }
+}
