@@ -3,13 +3,13 @@
 ## Project Description
 This project aims to help users to control their bank accounts. It allows users to add deposit, or withdraw the money and print the bank statement. 
 
-## Project aproach
-I have used an array of hashes for storing the information about each of the transactions. This allowed me to store each of the transactions as an element of an array. And, as each element is a hash, I could create value-pairs which represented depost, date, credit etc.
+## Project approach
+I have used an array of hashes for storing the information about each of the transactions. This allowed me to store each of the transactions as an element of an array. And, as each element is a hash, I could create value-pairs which represented deposit, date, credit etc.
 
 The program consists of one class, which contains 4 methods: 
 1. Initialize - this method sets the initial values of the object - budget and statement.
 
-2. Depost - takes two arguments: amount of money and date. This method allows users to deposit money to the bank account.
+2. Deposit - takes two arguments: amount of money and date. This method allows users to deposit money to the bank account.
 
 3. Withdraw - takes two arguments: amount of money and date. This method allows users to withdraw money from the bank account.
 
@@ -21,14 +21,14 @@ I used Ruby as the main language for this project. RSpec and simplecov for testi
 The program consists of a single class(one file) and one file with tests.
 
 ## Input and output
-Input example:
+Input example:  
 ![My Image](input.png)
 
-Output example:
+Respective output:  
 ![My Image](output.png)
 
 ## How to use the project
-1. Install latest Ruby version
+1. Install the latest Ruby version
 `rvm get stable`
 `rvm use ruby --latest --install --default`
 
