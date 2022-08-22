@@ -31,5 +31,3 @@ class Bank
   end
 
 end
-
-bank = Bank.new
